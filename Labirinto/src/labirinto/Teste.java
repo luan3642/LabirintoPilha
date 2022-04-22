@@ -4,9 +4,9 @@ package labirinto;
 import java.util.Scanner;
 
 
- *
- * @author luan ma
- *
+ 
+// @author luan magalhaes
+// curso: ciência da computação
 public class Teste {
        public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
