@@ -3,7 +3,7 @@ package labirinto;
 
 import java.util.Scanner;
 
-/
+
  *
  * @author luan
  */
