@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 
  *
- * @author luan m
+ * @author luan ma
  *
 public class Teste {
        public static void main(String[] args) {
