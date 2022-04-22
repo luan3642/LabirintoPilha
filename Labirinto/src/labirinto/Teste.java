@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 
  *
- * @author lu
+ * @author l
  */
 public class Teste {
        public static void main(String[] args) {
