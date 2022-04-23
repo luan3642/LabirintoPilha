@@ -1,15 +1,58 @@
+Trabalho Prático 1 - Labirinto
+Este trabalho tem como objetivo construir um labirinto
+
+O programa se inicia na casa de entrada
+
     0 1 2 3 4 5 6 7 	
  0  # # # # # # # # 
- 1  #   #         #  
- 2  #    #    #   #  
+ 1  # - #         #  
+ 2  #     #   #   #  
  3  #   #     #   #  
  4  #   # #   #   #   
  5  #         # S #  
  
-
-
-0 - SUBIR
-3 - ESQUERDA
-2 - DESCER
-1 - DIREITA
-
+ 
+ Quando encontra uma casa vazia a posição é inserida na pilha e o movimento efetuado
+ 
+    0 1 2 3 4 5 6 7 	
+ 0  # # # # # # # # 
+ 1  # - #         #  
+ 2  # -   #   #   #  
+ 3  #   #     #   #  
+ 4  #   # #   #   #   
+ 5  #         # S #  
+ 
+ 
+ Caso a posição atual não possua caminhos livres, o programa desempilha a última posição e faz uma nova tentiva
+ 
+ 
+  0 1 2 3 4 5 6 7 	
+ 0  # # # # # # # # 
+ 1  # - #         #  
+ 2  # - - #    #   #  
+ 3  #   #     #   #  
+ 4  #   # #   #   #   
+ 5  #         # S #  
+ 
+ 
+  0 1 2 3 4 5 6 7 	
+ 0  # # # # # # # # 
+ 1  # - #         #  
+ 2  # -   #    #   #  
+ 3  #   #     #   #  
+ 4  #   # #   #   #   
+ 5  #         # S #  
+ 
+ 
+ O processo se repete até que a saída tenha sido encontrada
+ 
+    0 1 2 3 4 5 6 7 	
+ 0  # # # # # # # # 
+ 1  # - #   - - - #  
+ 2  # - - # - # - #  
+ 3  # - #   - # - #  
+ 4  # - # # - # - #   
+ 5  # - - - - # S #  
+ 
+ 
+ 
